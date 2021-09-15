@@ -26,3 +26,5 @@ The environment variables are the same as the [official image](https://hub.docke
 - Sample
     - RABBITMQ_DEFAULT_USER=admin
     - RABBITMQ_DEFAULT_PASS=password
+
+[ref-url](https://github.com/heidiks/rabbitmq-delayed-message-exchange/blob/master/README.md)

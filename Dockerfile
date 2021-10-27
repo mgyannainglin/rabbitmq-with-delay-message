@@ -11,3 +11,5 @@ RUN chown rabbitmq:rabbitmq $RABBITMQ_HOME/plugins/rabbitmq_delayed_message_exch
 RUN rabbitmq-plugins enable --offline rabbitmq_delayed_message_exchange
 
 RUN rabbitmq-plugins enable --offline rabbitmq_consistent_hash_exchange
+
+LABEL maintainer="yannainglin"
